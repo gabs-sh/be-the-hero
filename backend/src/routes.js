@@ -1,4 +1,5 @@
 const express = require('express')
+
 const OngController = require('./controllers/OngController')
 const IncidentController = require('./controllers/IncidentController')
 const ProfileController = require('./controllers/ProfileController')
@@ -29,5 +30,5 @@ routes.get('/profile', ProfileController.index)
 //rotas para session (login etc)
 routes.post('/sessions', SessionController.create)
 
-
+//exportando as rotas
 module.exports = routes
