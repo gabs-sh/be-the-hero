@@ -9,7 +9,8 @@ import Detail from './pages/Detail'
 
 export default function Routes() {
     return(
-        <NavigationContainer>
+       
+       <NavigationContainer>
             
             <AppStack.Navigator screenOptions={{headerShown : false}}>
 
